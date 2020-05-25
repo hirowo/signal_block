@@ -3,4 +3,7 @@ namespace comment {
     //% blockId=show_strings block="コメント %v"
     export function noaction(text: string): void {
     }
+    //% blockId=sono2 block="kkk %v"
+    export function action(text: string): void {
+    }
 }
