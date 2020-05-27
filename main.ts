@@ -3,7 +3,7 @@ namespace comment {
     let p1 =DigitalPin.P0;  
     let p2 = DigitalPin.P16;  
 
-    //% blockId=INIT block="ピン指定 %v"
+    //% blockId=INIT block="ピン指定 %PIN1 %PIN2 %v"
     export function init(PIN1: DigitalPin, PIN2: DigitalPin): void {
         p1 = PIN1;
         p2 = PIN2;
