@@ -20,12 +20,12 @@ namespace comment {
         pins.digitalWritePin(p1, 1)
         pins.digitalWritePin(p2, 0)
     }
-    //% blockId=sono2 block="緑を点灯 %v"
+    //% blockId=sono3 block="緑を点灯 %v"
     export function midori(): void {
         pins.digitalWritePin(p1, 1)
         pins.digitalWritePin(p2, 1)
     }
-    //% blockId=sono3 block="全部消す %v"
+    //% blockId=sono4 block="全部消す %v"
     export function kesu(): void {
         pins.digitalWritePin(p1, 0)
         pins.digitalWritePin(p2, 0)
