@@ -1,4 +1,4 @@
-//% weight=70 icon="\uf075" color=#555555 block="コメント"
+//% weight=70 icon="\uf075" color=#0000FF block="信号機"
 namespace comment {
     let p1 =DigitalPin.P0;  
     let p2 = DigitalPin.P16;  
