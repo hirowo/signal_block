@@ -4,6 +4,7 @@
 Groveコネクタに接続できる、信号機モジュールです。Groveインターフェースで接続できるため
 1枚のMicro:bitで複数の本モジュールが駆動できます。しやがって、1枚のMicro:bitで交差点の
 動作を実現できます。
+![IMG_1652](https://user-images.githubusercontent.com/34668037/83114689-4226c680-a104-11ea-9c69-322b65d90e5f.JPG)
 
 
 ## Groveコネクタ
