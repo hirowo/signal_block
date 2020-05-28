@@ -15,9 +15,9 @@ Groveコネクタに接続できる、信号機モジュールです。Groveイ�
 
 ## 動作論理　
 SIG1 SIG2  　動作
-LOW   LOW    緑点灯
-HIGH  LOW    黄点灯
-LOW   HIGH   赤点灯
-HIGH  HIGH   全消灯
+LOW   LOW    緑点灯  
+HIGH  LOW    黄点灯  
+LOW   HIGH   赤点灯  
+HIGH  HIGH   全消灯  
 
 
