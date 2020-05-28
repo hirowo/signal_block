@@ -22,13 +22,13 @@ namespace comment {
     }
     //% blockId=sono3 block="緑を点灯 %v"
     export function midori(): void {
-        pins.digitalWritePin(p1, 1)
-        pins.digitalWritePin(p2, 1)
+        pins.digitalWritePin(p1, 0)
+        pins.digitalWritePin(p2, 0)
     }
     //% blockId=sono4 block="全部消す %v"
     export function kesu(): void {
-        pins.digitalWritePin(p1, 0)
-        pins.digitalWritePin(p2, 0)
+        pins.digitalWritePin(p1, 1)
+        pins.digitalWritePin(p2, 1)
     }
     
 
