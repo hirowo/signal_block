@@ -1,21 +1,23 @@
-# signal_block
+# 信号機モジュール(Groveコネクタ付き)
+## 信号機モジュール(Groveコネクタ付き)とは？
+
+Groveコネクタに接続できる、信号機モジュールです。Groveインターフェースで接続できるため
+1枚のMicro:bitで複数の本モジュールが駆動できます。しやがって、1枚のMicro:bitで交差点の
+動作を実現できます。
 
 
+## Groveコネクタ
+信号アサインは以下の通り
+1 SIG1
+2 SIG2 
+3 VCC(2V ～ 6V) 3.3Vを推奨
+4 GND
 
-## TODO
+## 動作論理　
+SIG1 SIG2  　動作
+LOW   LOW    緑点灯
+HIGH  LOW    黄点灯
+LOW   HIGH   赤点灯
+HIGH  HIGH   全消灯
 
-- [ ] Add a reference for your blocks here
-- [ ] Add "icon.png" image (300x200) in the root folder
-- [ ] Add "- beta" to the GitHub project description if you are still iterating it.
-- [ ] Turn on your automated build on https://travis-ci.org
-- [ ] Use "pxt bump" to create a tagged release on GitHub
-- [ ] On GitHub, create a new file named LICENSE. Select the MIT License template.
-- [ ] Get your package reviewed and approved https://makecode.microbit.org/extensions/approval
-
-Read more at https://makecode.microbit.org/extensions
-
-## Supported targets
-
-* for PXT/microbit
-(The metadata above is needed for package search.)
 
