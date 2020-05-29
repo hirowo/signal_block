@@ -4,12 +4,12 @@ namespace comment {
     let p2 = DigitalPin.P16;
 
     //% blockId=INIT block="ピン指定 %PIN1 %PIN2 %v"
-    export function init(PIN1: DigitalPin, PIN2: DigitalPin) {
-        p1 = PIN1;
-        p2 = PIN2;
+    
+    export function Forward() {
 
-        return p1
+        return 1
     }
+
 
     //% blockId=show_strings block="赤を点灯 %v"
     export function aka(): void {
