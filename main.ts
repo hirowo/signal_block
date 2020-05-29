@@ -3,7 +3,7 @@ namespace comment {
     let p1 = DigitalPin.P0;
     let p2 = DigitalPin.P16;
 
-    //% blockId=FORARD block="前%v"
+    //% block="前%v"
     
     export function Forward() {
 
