@@ -23,17 +23,17 @@ namespace comment {
     //% blockId=sono2 block="黄色を点灯 %v"
     export function kiiro(ASAIN: SIGNAL_LIHGHT): void {
         pins.digitalWritePin(ASAIN.pin1, 1)
-        pins.digitalWritePin(ASAIN.pin1, 0)
+        pins.digitalWritePin(ASAIN.pin2, 0)
     }
     //% blockId=sono3 block="緑を点灯 %v"
     export function midori(ASAIN: SIGNAL_LIHGHT): void {
         pins.digitalWritePin(ASAIN.pin1, 0)
-        pins.digitalWritePin(ASAIN.pin1, 0)
+        pins.digitalWritePin(ASAIN.pin2, 0)
     }
     //% blockId=sono4 block="全部消す %v"
     export function kesu(ASAIN: SIGNAL_LIHGHT): void {
         pins.digitalWritePin(ASAIN.pin1, 1)
-        pins.digitalWritePin(ASAIN.pin1, 1)
+        pins.digitalWritePin(ASAIN.pin2, 1)
     }
 
 }
